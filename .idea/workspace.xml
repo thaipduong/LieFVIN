@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="386c3081-3a98-4ef5-bfb7-1a34a00aeae6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/envs/quadrotor_pybullet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.episode_batch.0.7587.stats.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.manifest.0.7587.manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.video.0.7587.video000000.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/envs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/envs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.episode_batch.0.7943.stats.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.manifest.0.7943.manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.video.0.7943.video000000.meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.video.0.7587.video000000.meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.video.0.7943.video000000.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/quadrotor_pyb/control_mpc_quadrotor_SE3.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/quadrotor_pyb/control_mpc_quadrotor_SE3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/quadrotor_pyb/data_collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/quadrotor_pyb/data_collection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +189,7 @@
       <workItem from="1671576880355" duration="4000" />
       <workItem from="1671576914440" duration="5328000" />
       <workItem from="1681234505457" duration="29000" />
-      <workItem from="1681276551777" duration="1080000" />
+      <workItem from="1681276551777" duration="2898000" />
     </task>
     <servers />
   </component>

@@ -22,7 +22,8 @@ The code has been tested with Ubuntu 18.04, Python 3.8 and the following package
 
 ```pyglet 1.5.27```
 
-```mpc 0.0.4```
+Install mpc.pytorch:
+```git clone git@github.com:locuslab/mpc.pytorch.git && cd mpc.pytorch && pip3 install -e .```
 
 ## Demos with pendulum
 Run ```python ./examples/pendulum/train_pend_SO3.py``` to train the model with data collected from the pendulum environment. It might take some time to train. A pretrained model is stored in ``` ./examples/pendulum/data/run1/pendulum-so3ham-vin-10p-6000.tar```
