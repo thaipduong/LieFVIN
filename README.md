@@ -7,13 +7,22 @@ Please check out the paper here: https://arxiv.org/pdf/2211.16006.pdf
 The code has been tested with Ubuntu 18.04, Python 3.8 and the following packages:
 
 ```torchdiffeq 0.1.1```
+
 ```torch 1.11.0```
+
 ```gym-pybullet-drones: https://github.com/utiasDSL/gym-pybullet-drones```
+
 ```gym 0.21.0```
+
 ```numpy 1.23.4```
+
 ```scipy 1.9.2```
+
 ```matplotlib 3.6.1```
+
 ```pyglet 1.5.27```
+
+```mpc 0.0.4```
 
 ## Demos with pendulum
 Run ```python ./examples/pendulum/train_pend_SO3.py``` to train the model with data collected from the pendulum environment. It might take some time to train. A pretrained model is stored in ``` ./examples/pendulum/data/run1/pendulum-so3ham-vin-10p-6000.tar```

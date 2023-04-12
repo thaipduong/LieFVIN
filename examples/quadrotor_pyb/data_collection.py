@@ -7,9 +7,11 @@ from LieFVIN import to_pickle, from_pickle
 
 # Pybullet drone environment
 from gym_pybullet_drones.envs.BaseAviary import DroneModel, Physics
-from gym_pybullet_drones.envs.CtrlAviary import CtrlAviary
+#from gym_pybullet_drones.envs.CtrlAviary import CtrlAviary
 from gym_pybullet_drones.utils.utils import sync, str2bool
 from gym_pybullet_drones.control.DSLPIDControl import DSLPIDControl
+from envs import Pybullet_Quadrotor
+
 parser = argparse.ArgumentParser(description='Debugging script for PyBullet applyExternalForce() and applyExternalTorque() PyBullet')
 parser.add_argument('--duration_sec',   default=3,     type=float,       help='Duration of the simulation in seconds (default: 30)', metavar='')
 parser.add_argument('--num_resets',     default=1,      type=int,       help='Number of times the simulation is reset to its initial conditions (default: 2)', metavar='')
@@ -45,7 +47,7 @@ def sample_gym(sim_freq = 240, ctrl_freq = 48):
         TARGET_RPYS = np.array([0, 0, (iter % 3) * 15 * (np.pi / 180)]).reshape(1, 3)
 
         # Initialize the simulation
-        env = CtrlAviary(drone_model=DroneModel.CF2P,
+        env = Pybullet_Quadrotor(drone_model=DroneModel.CF2P,
                          initial_xyzs=INIT_XYZS,
                          initial_rpys=INIT_RPYS,
                          physics=Physics.PYB,
@@ -138,7 +140,7 @@ def sample_gym(sim_freq = 240, ctrl_freq = 48):
 
 
         # Initialize the simulation
-        env = CtrlAviary(drone_model=DroneModel.CF2P,
+        env = Pybullet_Quadrotor(drone_model=DroneModel.CF2P,
                          initial_xyzs=INIT_XYZS,
                          initial_rpys=INIT_RPYS,
                          physics=Physics.PYB,

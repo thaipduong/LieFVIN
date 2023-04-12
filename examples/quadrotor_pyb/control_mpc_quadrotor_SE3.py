@@ -14,7 +14,8 @@ from scipy.spatial.transform import Rotation
 import matplotlib.pyplot as plt
 from controller_utils import *
 from gym_pybullet_drones.envs.BaseAviary import DroneModel, Physics
-from gym_pybullet_drones.envs.CtrlAviary import CtrlAviary
+#from gym_pybullet_drones.envs.CtrlAviary import CtrlAviary
+from envs import Pybullet_Quadrotor
 gpu=0
 device = torch.device('cuda:' + str(gpu) if torch.cuda.is_available() else 'cpu') #
 dt = 0.02
@@ -113,7 +114,7 @@ if __name__ == "__main__":
                 if self.gt:
                     nextx = self.model.forward_gt(curx)
                 else:
-                    nextx = self.model.forward2(curx)
+                    nextx = self.model.forward_traininga(curx)
                     curx = nextx
             state, _ = torch.split(nextx, [self.model.posedim + self.model.twistdim, self.model.udim], dim=1)
             return state
@@ -138,7 +139,7 @@ if __name__ == "__main__":
 
 
     # Start pybullet drone environment
-    env = CtrlAviary(drone_model=DroneModel.CF2P,
+    env = Pybullet_Quadrotor(drone_model=DroneModel.CF2P,
                      initial_xyzs=INIT_XYZS,
                      initial_rpys=INIT_RPYS,
                      physics=Physics.PYB,
