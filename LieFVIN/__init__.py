@@ -4,4 +4,5 @@ from .utils import choose_nonlinearity, from_pickle, to_pickle, L2_loss, rotmat_
 from .nn_models import MLP, PSD, MatrixNet, Mass, MassFixed
 from .SO3FVIN import SO3FVIN
 from .SE3FVIN import SE3FVIN
+from .SO3FVIN_Blackbox import SO3FVIN_BB
 

@@ -19,9 +19,9 @@ def get_model(load = True):
     model = SO3FVIN(device=device, u_dim = 1, time_step = dt).to(device)
     stats = None
     if load:
-        path = 'data/run2/pendulum-so3ham-vin-10p-6000.tar'
+        path = 'data/run1/pendulum-so3ham-vin-10p-6000.tar'
         model.load_state_dict(torch.load(path, map_location=device))
-        path = 'data/run2/pendulum-so3ham-vin-10p-stats.pkl'
+        path = 'data/run1/pendulum-so3ham-vin-10p-stats.pkl'
         stats = from_pickle(path)
     return model, stats
 

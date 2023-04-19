@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="386c3081-3a98-4ef5-bfb7-1a34a00aeae6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LieFVIN/SO3FVIN_Blackbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/pendulum/analyze_pend_BB_genfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/pendulum/rollout_pend_BB_genfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/pendulum/train_pend_SO3_blackbox.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LieFVIN/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LieFVIN/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/analyze_pend_SO3_genfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pendulum/analyze_pend_SO3_genfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/png/M_x_all.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pendulum/png/M_x_all.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/png/SO3_constraints.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pendulum/png/SO3_constraints.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/png/V_x.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pendulum/png/V_x.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/png/g_x.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pendulum/png/g_x.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/png/hamiltonian.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pendulum/png/hamiltonian.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/png/loss_log.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pendulum/png/loss_log.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/png/phase_portrait.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pendulum/png/phase_portrait.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.episode_batch.0.7587.stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.manifest.0.7587.manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.video.0.7587.video000000.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pendulum/videos/pendulum/openaigym.video.0.7587.video000000.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/quadrotor_pyb/png/loss_log.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/quadrotor_pyb/png/loss_log.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/erl/repos/DynamicsLearning/DiscreteHamDL/LieFVIN",
+    "last_opened_file_path": "/home/erl/repos/DynamicsLearning/DiscreteHamDL/LieFVIN/examples/pendulum",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,18 +64,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/examples/pendulum/data/run1" />
+      <recent name="$PROJECT_DIR$/examples/pendulum" />
       <recent name="$PROJECT_DIR$/LieFVIN" />
+      <recent name="$PROJECT_DIR$/examples/pendulum/data/run1" />
       <recent name="$PROJECT_DIR$/examples/quadrotor_pyb" />
       <recent name="$PROJECT_DIR$/examples/quadrotor_pyb/data/run12" />
-      <recent name="$PROJECT_DIR$/examples/pendulum/data/run2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/examples/quadrotor_pyb/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.control_mpc_quadrotor_SE3">
-    <configuration name="analyze_pend_SO3_genfig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.analyze_pend_BB_genfig">
+    <configuration name="analyze_pend_BB_genfig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LieFVIN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,7 +88,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/pendulum/analyze_pend_SO3_genfig.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/pendulum/analyze_pend_BB_genfig.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,29 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="control_mpc_pend_SO3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LieFVIN" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/pendulum" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/pendulum/control_mpc_pend_SO3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="control_mpc_quadrotor_SE3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="analyze_quadrotor_SE3_genfig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LieFVIN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +110,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/quadrotor_pyb/control_mpc_quadrotor_SE3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/quadrotor_pyb/analyze_quadrotor_SE3_genfig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rollout_pend_BB_genfig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LieFVIN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/pendulum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/pendulum/rollout_pend_BB_genfig.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_quad_pyb_SE3_trainingb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train_pend_SO3_blackbox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LieFVIN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,12 +171,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/quadrotor_pyb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/pendulum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/quadrotor_pyb/train_quad_pyb_SE3_trainingb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/pendulum/train_pend_SO3_blackbox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.control_mpc_quadrotor_SE3" />
-        <item itemvalue="Python.control_mpc_pend_SO3" />
-        <item itemvalue="Python.train_quad_pyb_SE3_trainingb" />
+        <item itemvalue="Python.analyze_pend_BB_genfig" />
+        <item itemvalue="Python.rollout_pend_BB_genfig" />
+        <item itemvalue="Python.train_pend_SO3_blackbox" />
+        <item itemvalue="Python.analyze_quadrotor_SE3_genfig" />
         <item itemvalue="Python.rollout_pend_SO3_genfig" />
-        <item itemvalue="Python.analyze_pend_SO3_genfig" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +206,9 @@
       <workItem from="1671576880355" duration="4000" />
       <workItem from="1671576914440" duration="5328000" />
       <workItem from="1681234505457" duration="29000" />
-      <workItem from="1681276551777" duration="2898000" />
+      <workItem from="1681276551777" duration="3520000" />
+      <workItem from="1681849074715" duration="2567000" />
+      <workItem from="1681855341405" duration="3904000" />
     </task>
     <servers />
   </component>
@@ -197,13 +216,16 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LieFVIN$train_pend_SO3_blackbox.coverage" NAME="train_pend_SO3_blackbox Coverage Results" MODIFIED="1681855410083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pendulum" />
     <SUITE FILE_PATH="coverage/LieFVIN$train_quad_pyb_SE3_trainingb.coverage" NAME="train_quad_pyb_SE3_trainingb Coverage Results" MODIFIED="1671582530441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/quadrotor_pyb" />
     <SUITE FILE_PATH="coverage/LieFVIN$rollout_quadrotor_SE3.coverage" NAME="rollout_quadrotor_SE3 Coverage Results" MODIFIED="1671581712254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/quadrotor_pyb" />
-    <SUITE FILE_PATH="coverage/LieFVIN$analyze_quadrotor_SE3_genfig.coverage" NAME="analyze_quadrotor_SE3_genfig Coverage Results" MODIFIED="1671581735739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/quadrotor_pyb" />
+    <SUITE FILE_PATH="coverage/LieFVIN$analyze_quadrotor_SE3_genfig.coverage" NAME="analyze_quadrotor_SE3_genfig Coverage Results" MODIFIED="1681849598780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/quadrotor_pyb" />
+    <SUITE FILE_PATH="coverage/LieFVIN$rollout_pend_BB_genfig.coverage" NAME="rollout_pend_BB_genfig Coverage Results" MODIFIED="1681926906414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pendulum" />
     <SUITE FILE_PATH="coverage/LieFVIN$train_pend_SO3.coverage" NAME="train_pend_SO3 Coverage Results" MODIFIED="1671577284708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pendulum" />
-    <SUITE FILE_PATH="coverage/LieFVIN$rollout_pend_SO3_genfig.coverage" NAME="rollout_pend_SO3_genfig Coverage Results" MODIFIED="1671581978825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pendulum" />
-    <SUITE FILE_PATH="coverage/LieFVIN$analyze_pend_SO3_genfig.coverage" NAME="analyze_pend_SO3_genfig Coverage Results" MODIFIED="1671581870583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pendulum" />
     <SUITE FILE_PATH="coverage/LieFVIN$control_mpc_quadrotor_SE3.coverage" NAME="control_mpc_quadrotor_SE3 Coverage Results" MODIFIED="1681277444609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/quadrotor_pyb" />
+    <SUITE FILE_PATH="coverage/LieFVIN$analyze_pend_SO3_genfig.coverage" NAME="analyze_pend_SO3_genfig Coverage Results" MODIFIED="1681849473267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pendulum" />
+    <SUITE FILE_PATH="coverage/LieFVIN$rollout_pend_SO3_genfig.coverage" NAME="rollout_pend_SO3_genfig Coverage Results" MODIFIED="1681849509329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pendulum" />
     <SUITE FILE_PATH="coverage/LieFVIN$control_mpc_pend_SO3.coverage" NAME="control_mpc_pend_SO3 Coverage Results" MODIFIED="1681276610959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pendulum" />
+    <SUITE FILE_PATH="coverage/LieFVIN$analyze_pend_BB_genfig.coverage" NAME="analyze_pend_BB_genfig Coverage Results" MODIFIED="1681928528283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pendulum" />
   </component>
 </project>
